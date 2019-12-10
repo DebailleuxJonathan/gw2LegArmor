@@ -1,35 +1,44 @@
 package fr.rphstudio.demo;
+
 import javafx.scene.layout.Pane;
 
 import javax.swing.*;
+import javax.swing.plaf.nimbus.NimbusLookAndFeel;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class window extends JFrame {
+public class window extends JFrame{
+    CardLayout cl = new CardLayout();
+    JPanel content = new JPanel();
+    FlowLayout f1 = new FlowLayout(FlowLayout.LEFT);
 
 
-    private JPanel Panel = new JPanel();
-    private JButton bouton = new JButton("Mon bouton");
-
-    public window(){
-        this.setTitle("Armure Légendaire");
-        this.setLocationRelativeTo(null);
+    public window() throws Exception {
+        this.setTitle("CardLayout");
+        this.setSize(600, 300);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setLocationRelativeTo(null);
+        JPanel boutonPane = new Panel();
+        JButton bouton = new JButton("Contenu suivant");
+        JButton bouton2 = new JButton("Contenu avant");
+        JCheckBox check1 = new JCheckBox("AHHHH");
+        //Définition de l'action du bouton
+        boutonPane.add(bouton);
+        boutonPane.add(bouton2);
+        boutonPane.add(check1);
+        //On définit le layout
+        this.getContentPane().setLayout(f1);
+        this.getContentPane().add(boutonPane, BorderLayout.NORTH);
+        this.getContentPane().add(content, BorderLayout.CENTER);
         this.setVisible(true);
-        this.setResizable(false);
-        this.setTitle("Animation");
-        this.setSize(   300, 300);
-        //Ajout du bouton à notre content pane
-        Panel.add(bouton);
-        this.setContentPane(Panel);
-        this.setVisible(true);
-        //////////////
-        this.setContentPane(new Panel());
 
 
-
-
-
-
+        //apparence
 
     }
 }
+
+
+
+
