@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Calcul {
 
     public static void CalculArmure() throws Exception {
-        window Fenetre = new window();
+
 
 
         Scanner scanner = new Scanner(System.in);
