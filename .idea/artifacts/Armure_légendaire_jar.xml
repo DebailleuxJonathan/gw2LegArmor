@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Armure légendaire:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Armure_légendaire_jar</output-path>
+    <root id="archive" name="Armure légendaire.jar">
+      <element id="module-output" name="Armure légendaire" />
+    </root>
+  </artifact>
+</component>

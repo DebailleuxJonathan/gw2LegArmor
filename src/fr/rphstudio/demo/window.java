@@ -1,6 +1,6 @@
 package fr.rphstudio.demo;
 
-import javafx.scene.layout.Pane;
+
 
 import javax.swing.*;
 import javax.swing.plaf.nimbus.NimbusLookAndFeel;
@@ -131,18 +131,15 @@ public class window extends JFrame{
 
         bouton2 = new JButton("RESET");
         bouton2.setBounds(300,150,251,31);
-        bouton2.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
+        bouton2.addActionListener(actionEvent -> {
 
-                try {
-                    dispose();
-                    new window();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-
+            try {
+                dispose();
+                new window();
+            } catch (Exception e) {
+                e.printStackTrace();
             }
+
         });
 
 
@@ -151,7 +148,6 @@ public class window extends JFrame{
         content.add(bouton2);
 
         content.add(logo);
-
 
 
         this.setVisible(true);

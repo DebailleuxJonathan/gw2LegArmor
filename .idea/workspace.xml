@@ -1,18 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Armure légendaire:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c87b890f-c36a-467d-b2a2-2fe3a67381e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/rphstudio/demo/Welcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Armure_légendaire_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/armure_lourde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chaussure_lourd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epaule_lourd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gants_lourd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heaume_lourd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jambiere_lourd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plastron_lourd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/rphstudio/demo/text/textBotteLourd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/rphstudio/demo/text/textEpauleLourd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/rphstudio/demo/text/textGantLourd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/rphstudio/demo/text/textHeaumeLourd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/rphstudio/demo/text/textJambiereLourd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/rphstudio/demo/text/textPlastronLourd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/rphstudio/demo/Calcul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rphstudio/demo/Calcul.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/rphstudio/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rphstudio/demo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/rphstudio/demo/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rphstudio/demo/Panel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/rphstudio/demo/Welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rphstudio/demo/Welcome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/rphstudio/demo/window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/rphstudio/demo/window.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,26 +57,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1Uo7goDwVHdn1iTkcCPUyCO9niT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/DebailleuxJonathan/gw2LegArmor.git" />
+      </set>
     </option>
+  </component>
+  <component name="ProjectId" id="1Uo7goDwVHdn1iTkcCPUyCO9niT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -53,6 +93,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,8 +116,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576011207948</updated>
+      <workItem from="1579887096022" duration="7707000" />
+      <workItem from="1579950151298" duration="603000" />
+      <workItem from="1580320113992" duration="720000" />
+      <workItem from="1582915549328" duration="7612000" />
+      <workItem from="1582964923167" duration="3382000" />
+      <workItem from="1583052013087" duration="3702000" />
+      <workItem from="1583345553214" duration="516000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -79,5 +141,77 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="177" key="#Project_Structure" timestamp="1579887568497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1579887568497" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579887976142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579887976142" />
+    <state x="565" y="113" key="CommitChangelistDialog2" timestamp="1579888037003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="565" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579888037003" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1583346084183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583346084183" />
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1583055906364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583055906364" />
+    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1583055906364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583055906364" />
+    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1583055906364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583055906364" />
+    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1583055906364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583055906364" />
+    <state width="1876" height="342" key="GridCell.Tab.1.bottom" timestamp="1579895130491">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579895130491" />
+    <state width="1876" height="342" key="GridCell.Tab.1.center" timestamp="1579895130491">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="342" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579895130491" />
+    <state width="1876" height="342" key="GridCell.Tab.1.left" timestamp="1579895130491">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="342" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579895130491" />
+    <state width="1876" height="342" key="GridCell.Tab.1.right" timestamp="1579895130491">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="342" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579895130491" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1583346070846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583346070846" />
+    <state x="342" y="139" key="new project wizard" timestamp="1580320272924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="139" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1580320272924" />
+    <state x="616" y="235" key="run.anything.popup" timestamp="1579894396524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579894396524" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579888151377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579888151377" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Gw2LegArmor$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1579888855929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
